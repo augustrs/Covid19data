@@ -33,9 +33,10 @@ public class FileHandler {
                     int beKræftedeTilfælde = Integer.parseInt(values[2].trim());
                     int døde = Integer.parseInt(values[3].trim());
                     int indlagtePåIntensiv = Integer.parseInt(values[4].trim());
+                    int indlagte = Integer.parseInt(values[5].trim());
 
                     if (validateLine(values)) {
-                        Covid19Data covid19Data = new Covid19Data(region, aldersgruppe, beKræftedeTilfælde, døde, indlagtePåIntensiv);
+                        Covid19Data covid19Data = new Covid19Data(region, aldersgruppe, beKræftedeTilfælde, døde, indlagtePåIntensiv, indlagte);
                         covid19DataList.add(covid19Data);
                     }
                 }
