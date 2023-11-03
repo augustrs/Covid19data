@@ -21,4 +21,7 @@ public Covid19Data (String region, String aldersgruppe, int bekræftedeTilfælde
     public String toString() {
         return "Covid19Data: " + "Region: "+region+" " + "Aldersgruppe "+aldersgruppe+" " +"Bekræftede tilfælde "+ bekræftedeTilfælde+" " +"Døde: " +døde+ " " +"Indlagte på intensiv: "+ indlagtePåIntensiv+ " Indlagte: "+indlagte;
     }
+
+
+
 }
